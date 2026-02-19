@@ -15,9 +15,9 @@ In this section, list and describe the features or functionality that you are wo
  Feature 1 Authentication (Shek Rabia Prapti): Login.
  Feature 2 Student Management (Shek Rabia Prapti): Student Management like Add new students,View all students,Edit student details,Delete students.
  Feature 3 Dashboard (Shek Rabia Prapti): Dashboard (Displays total number of students,Displays total number of teachers)
- Feature 4
- Feature 5
- Feature 6
+ Feature 4 Authentication (Sharmin Akter): Logout
+ Feature 5 Manage teacher and add teacher (Sharmin Akter)
+
 
 Feature 1
 Link For Login-http://shell.hamk.fi/~bbcap25_2/StudentCRUD/StudentCRUD/login.php  (Shek Rabia Prapti)
@@ -29,20 +29,18 @@ Add Student-http://shell.hamk.fi/~bbcap25_2/StudentCRUD/StudentCRUD/create.php (
 Feature 3
 Dashboard-http://shell.hamk.fi/~bbcap25_2/StudentCRUD/StudentCRUD/dashboard.php (Shek Rabia Prapti)
 
+
 Feature 4
-
-Feature 5
-
-
-Feature 6
-
+Manage teacher-http://shell.hamk.fi/~bbcap25_2/StudentCRUD/StudentCRUD/teachers.php (Sharmin Akter)
+Add teacher- http://shell.hamk.fi/~bbcap25_2/StudentCRUD/StudentCRUD/createteacher.php (Sharmin Akter)
 
 Database Tables
 List the database tables that are part of your project.
 
 Table 1 (Shek Rabia Prapti): User
 Table 2 (Shek Rabia Prapti): Students
-Table 3 (Created By): Table Name
+Table 3 (Sharmin akter): teachers
+
 Include the ER Diagram of the database.
 
 Created Forms
@@ -65,11 +63,26 @@ Form 7: (Shek Rabia Prapti): navbar.php: Link to the related code file (github)-
 Form 8: (Shek Rabia Prapti): students.php: Link to the related code file (github)-https://github.com/Rabia-bng/WP-Student-CRUD/blob/main/StudentCRUD/students.php| Validations Applied-It has session validation, not form validation.
 List any tables that you have created in the project work
 
+Form 9 (Sharmin Akter):Form Name- Createteacher.php: Link to the related code file (github)- https://github.com/Rabia-bng/WP-Student-CRUD/blob/main/StudentCRUD/createteacher.php | Link  (shell.hamk.fi)- http://shell.hamk.fi/~bbcap25_2/StudentCRUD/StudentCRUD/createteacher.php| Validations Applied-createteacher.php applies required field validation, email format validation, and basic server-side validation using PHP.
+
+Form 10 (Sharmin Akter):Form Name- deleteteteacher.php: Link to the related code file (github)- https://github.com/Rabia-bng/WP-Student-CRUD/blob/main/StudentCRUD/deleteTeacher.php| Link  (shell.hamk.fi)- delets data of teacher| Validations Applied-deleteTeacher.php validates that a valid teacher ID is provided before executing the delete operation and may include database execution validation.
+
+Form 11 (Sharmin Akter):Form Name- editTeacher.php: Link to the related code file (github)- https://github.com/Rabia-bng/WP-Student-CRUD/blob/main/StudentCRUD/editTeacher.php  | Validations Applied-editTeacher.php applies ID validation, required field validation, email format validation, and basic server-side validation before updating teacher records.
+
+Form 12 (Sharmin Akter):Form Name- footer.php: Link to the related code file (github)- https://github.com/Rabia-bng/WP-Student-CRUD/blob/main/StudentCRUD/footer.php  | Validations Applied- footer.php does not contain validation logic. It is responsible for layout and user interface design.
+
+Form 13 (Sharmin Akter):Form Name- logout.php: Link to the related code file (github)- https://github.com/Rabia-bng/WP-Student-CRUD/blob/main/StudentCRUD/logout.php|Validations Applied-logout.php validates and destroys the active session to ensure secure logout.
+
+Form 14 (Sharmin Akter):Form Name- session.php: Link to the related code file (github)-https://github.com/Rabia-bng/WP-Student-CRUD/blob/main/StudentCRUD/session.php|  Validations Applied-session.php validates that the user is logged in before allowing access to the system.
+
+Form 15 (Sharmin Akter):Form Name-teachers.php: Link to the related code file (github)- https://github.com/Rabia-bng/WP-Student-CRUD/blob/main/StudentCRUD/teachers.php  | Link  (shell.hamk.fi)- http://shell.hamk.fi/~bbcap25_2/StudentCRUD/StudentCRUD/teachers.php| Validations Applied-teachers.php validates that the user is logged in before displaying teacher records.
+
+
 Table 1 (Shek Rabia Prapti): Table Name-User | Link to the related code file (github)-https://github.com/Rabia-bng/WP-Student-CRUD/blob/main/StudentCRUD/login.php | Link to the table (shell.hamk.fi)-http://shell.hamk.fi/~bbcap25_2/StudentCRUD/StudentCRUD/login.php.
 
 Table 2 (Shek Rabia Prapti): Table Name-Students | Link to the related code file (github)-https://github.com/Rabia-bng/WP-Student-CRUD/blob/main/StudentCRUD/create.php | Link to the table (shell.hamk.fi)-http://shell.hamk.fi/~bbcap25_2/StudentCRUD/StudentCRUD/create.php.
 
-Table 3 (Created By): Table Name | Link to the related code file (github) | Link to the table (shell.hamk.fi).                    
+   Table 3 (Sharmin Akter): Table Name- Teachers | Link to the related code file (github)-https://github.com/Rabia-bng/WP-Student-CRUD/blob/main/StudentCRUD/teachers.php | Link to the table (shell.hamk.fi)- http://shell.hamk.fi/~bbcap25_2/StudentCRUD/StudentCRUD/teachers.php.                   
 
 Username: admin
 Password: admin123
