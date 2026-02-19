@@ -17,6 +17,7 @@ In this section, list and describe the features or functionality that you are wo
  Feature 3 Dashboard (Shek Rabia Prapti): Dashboard (Displays total number of students,Displays total number of teachers)
  Feature 4
  Feature 5
+ Feature 6
 
 Feature 1
 Link For Login-http://shell.hamk.fi/~bbcap25_2/StudentCRUD/StudentCRUD/login.php  (Shek Rabia Prapti)
@@ -27,6 +28,14 @@ Add Student-http://shell.hamk.fi/~bbcap25_2/StudentCRUD/StudentCRUD/create.php (
 
 Feature 3
 Dashboard-http://shell.hamk.fi/~bbcap25_2/StudentCRUD/StudentCRUD/dashboard.php (Shek Rabia Prapti)
+
+Feature 4
+
+Feature 5
+
+
+Feature 6
+
 
 Database Tables
 List the database tables that are part of your project.
