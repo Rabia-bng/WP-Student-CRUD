@@ -20,14 +20,14 @@ In this section, list and describe the features or functionality that you are wo
  Feature 5
 
 Feature 1
-Link For Login-http://shell.hamk.fi/~amk1006890/StudentCRUD/login.php  (Shek Rabia Prapti)
+Link For Login-http://shell.hamk.fi/~bbcap25_2/StudentCRUD/StudentCRUD/login.php  (Shek Rabia Prapti)
 
 Feature 2
-Manage Student-http://shell.hamk.fi/~amk1006890/StudentCRUD/students.php (Shek Rabia Prapti)
-Add Student-http://shell.hamk.fi/~amk1006890/StudentCRUD/create.php (Shek Rabia Prapti)
+[Manage Student-http://shell.hamk.fi/~bbcap25_2/StudentCRUD/StudentCRUD/students.php (Shek Rabia Prapti)
+Add Student-http://shell.hamk.fi/~bbcap25_2/StudentCRUD/StudentCRUD/create.php (Shek Rabia Prapti)
 
 Feature 3
-Dashboard-http://shell.hamk.fi/~amk1006890/StudentCRUD/dashboard.php (Shek Rabia Prapti)
+Dashboard-http://shell.hamk.fi/~bbcap25_2/StudentCRUD/StudentCRUD/dashboard.php (Shek Rabia Prapti)
 
 Database Tables
 List the database tables that are part of your project.
@@ -40,10 +40,21 @@ Include the ER Diagram of the database.
 Created Forms
 List and describe any forms that have been created as part of your project. Include details about the purpose of each form and any validation logic.
 
-Form 1 (Shek Rabia Prapti): Create.php: Link to the related code file (github) | Link to the form (shell.hamk.fi). | Validations Applied
-Form 2: (Created By): Form Name: Link to the related code file (github) | Link to the form (shell.hamk.fi). | Validations Applied
-Form 3: (Created By): Form Name: Link to the related code file (github) | Link to the form (shell.hamk.fi). | Validations Applied
-Created Tables
+Form 1 (Shek Rabia Prapti):Form Name- Create.php: Link to the related code file (github)- https://github.com/Rabia-bng/WP-Student-CRUD/blob/main/StudentCRUD/create.php | Link  (shell.hamk.fi)- http://shell.hamk.fi/~bbcap25_2/StudentCRUD/StudentCRUD/create.php. | Validations Applied-Required field validation (HTML required),Email format validation (type="email"),Basic server-side validation using PHP (isset($_POST))
+
+Form 2: (Shek Rabia Prapti): Form name-dashboard.php: Link to the related code file (github)- https://github.com/Rabia-bng/WP-Student-CRUD/blob/main/StudentCRUD/dashboard.php| Link to the form (shell.hamk.fi)- http://shell.hamk.fi/~bbcap25_2/StudentCRUD/StudentCRUD/dashboard.php | Validations Applied-session validation
+
+Form 3: (Shek Rabia Prapti): dpconnect.php: Link to the related code file (github)-https://github.com/Rabia-bng/WP-Student-CRUD/blob/main/StudentCRUD/dbconnect.php | Link to the form (shell.hamk.fi)-it works for entire database connection | Validations Applied-Connection validation (error handling)
+
+Form 4: (Shek Rabia Prapti): delete.php: Link to the related code file (github)-https://github.com/Rabia-bng/WP-Student-CRUD/blob/main/StudentCRUD/delete.php| Link to the form (shell.hamk.fi)-It delets the inserted data| Validations Applied-delete.php validates that a valid record ID is provided before deleting the record.Connection validation (error handling)
+
+Form 5 (Shek Rabia Prapti):Form Name- edit.php: Link to the related code file (github)- https://github.com/Rabia-bng/WP-Student-CRUD/blob/main/StudentCRUD/edit.php  | Validations Applied-edit.php implements the Update feature of CRUD and applies ID validation, required field validation, email format validation, and basic server-side validation.
+
+Form 6 (Shek Rabia Prapti):Form Name-login.php: Link to the form (shell.hamk.fi)-http://shell.hamk.fi/~bbcap25_2/StudentCRUD/StudentCRUD/login.php | Validations Applied-login.php applies required field validation, server-side validation using PHP, credential verification against the database, and session-based authentication.
+
+Form 7: (Shek Rabia Prapti): navbar.php: Link to the related code file (github)-https://github.com/Rabia-bng/WP-Student-CRUD/blob/main/StudentCRUD/navbar.php | 
+
+Form 8: (Shek Rabia Prapti): students.php: Link to the related code file (github)-https://github.com/Rabia-bng/WP-Student-CRUD/blob/main/StudentCRUD/students.php| Validations Applied-It has session validation, not form validation.
 List any tables that you have created in the project work
 
 Table 1 (Created By): Table Name | Link to the related code file (github) | Link to the table (shell.hamk.fi).
