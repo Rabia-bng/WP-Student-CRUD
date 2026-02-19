@@ -9,10 +9,10 @@ include "session.php";
 <html>
 <head>
     <title>Student Management System</title>
-    <!-- Bootstrap CSS -->
+    
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
 
-    <!-- Sticky Footer CSS -->
+    
     <style>
     html, body {
         height: 100%;
@@ -34,15 +34,15 @@ include "session.php";
 
 <?php include "navbar.php"; ?>
 
-<!-- Main Content Wrapper -->
+
 <div class="main-content">
 
 <div class="container mt-3 position-relative">
 
-    <!-- Page Title -->
+    
     <h2 class="mb-4 text-center">Student History</h2>
 
-    <!-- Table Card -->
+    
     <div class="card shadow-sm bg-info text-dark">
         <div class="card-body p-0">
             <table class="table table-bordered table-striped mb-0">
@@ -82,11 +82,12 @@ include "session.php";
     </div>
 
 </div>
-</div> <!-- End main-content -->
+</div> 
 
-<!-- Bootstrap JS -->
+
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 <?php include "footer.php"; ?>
 
 </body>
 </html>
+
