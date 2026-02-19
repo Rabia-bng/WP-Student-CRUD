@@ -1,8 +1,7 @@
 # WP-Student-CRUD
 Project Title-The Student Management System. 
 Team Members-Shek Rabia Prapti,Sharmin Akter
-A brief description of your web development project-
-
+A brief description of our web development project-
 The Student Management System is a PHP and MySQL-based web application that allows an admin to manage students and teachers using full CRUD operations. The system includes secure login functionality, session handling, and a responsive dashboard interface.
 
 Table of Contents
@@ -32,7 +31,7 @@ Dashboard-http://shell.hamk.fi/~bbcap25_2/StudentCRUD/StudentCRUD/dashboard.php 
 Database Tables
 List the database tables that are part of your project.
 
-Table 1 (Shek Rabia Prapti): Admin
+Table 1 (Shek Rabia Prapti): User
 Table 2 (Shek Rabia Prapti): Students
 Table 3 (Created By): Table Name
 Include the ER Diagram of the database.
@@ -57,6 +56,8 @@ Form 7: (Shek Rabia Prapti): navbar.php: Link to the related code file (github)-
 Form 8: (Shek Rabia Prapti): students.php: Link to the related code file (github)-https://github.com/Rabia-bng/WP-Student-CRUD/blob/main/StudentCRUD/students.php| Validations Applied-It has session validation, not form validation.
 List any tables that you have created in the project work
 
-Table 1 (Created By): Table Name | Link to the related code file (github) | Link to the table (shell.hamk.fi).
-Table 2 (Created By): Table Name | Link to the related code file (github) | Link to the table (shell.hamk.fi).
+Table 1 (Shek Rabia Prapti): Table Name-User | Link to the related code file (github)-https://github.com/Rabia-bng/WP-Student-CRUD/blob/main/StudentCRUD/login.php | Link to the table (shell.hamk.fi)-http://shell.hamk.fi/~bbcap25_2/StudentCRUD/StudentCRUD/login.php.
+
+Table 2 (Shek Rabia Prapti): Table Name-Students | Link to the related code file (github)-https://github.com/Rabia-bng/WP-Student-CRUD/blob/main/StudentCRUD/create.php | Link to the table (shell.hamk.fi)-http://shell.hamk.fi/~bbcap25_2/StudentCRUD/StudentCRUD/create.php.
+
 Table 3 (Created By): Table Name | Link to the related code file (github) | Link to the table (shell.hamk.fi).
