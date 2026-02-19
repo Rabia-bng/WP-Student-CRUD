@@ -1,4 +1,4 @@
-<!-- Navigation Bar -->
+
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
 <div class="container">
 
@@ -10,7 +10,7 @@
 
     <div class="collapse navbar-collapse" id="navbarNav">
 
-        <!-- Left menu -->
+       
         <ul class="navbar-nav me-auto">
 
             <li class="nav-item">
@@ -29,7 +29,7 @@
 
         </ul>
 
-        <!-- Right side -->
+        
         <span class="navbar-text me-3">
             Welcome, <?= $_SESSION['username'] ?? '' ?>
         </span>
@@ -40,3 +40,4 @@
 
 </div>
 </nav>
+
