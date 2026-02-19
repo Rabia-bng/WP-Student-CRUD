@@ -60,4 +60,5 @@ Table 1 (Shek Rabia Prapti): Table Name-User | Link to the related code file (gi
 
 Table 2 (Shek Rabia Prapti): Table Name-Students | Link to the related code file (github)-https://github.com/Rabia-bng/WP-Student-CRUD/blob/main/StudentCRUD/create.php | Link to the table (shell.hamk.fi)-http://shell.hamk.fi/~bbcap25_2/StudentCRUD/StudentCRUD/create.php.
 
-Table 3 (Created By): Table Name | Link to the related code file (github) | Link to the table (shell.hamk.fi).
+Table 3 (Created By): Table Name | Link to the related code file (github) | Link to the table (shell.hamk.fi).                                                                                                                                               Username: admin
+Password: admin123
