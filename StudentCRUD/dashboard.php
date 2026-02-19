@@ -40,10 +40,10 @@ body {
 
     <h2 class="text-center mb-4">Dashboard</h2>
 
-    <!--Cards-->
+    
     <div class="row">
 
-        <!--Total Students-->
+        
         <div class="col-md-6 mb-3">
             <div class="card shadow text-center bg-primary text-white">
                 <div class="card-body">
@@ -53,7 +53,7 @@ body {
             </div>
         </div>
 
-        <!--Total Teachers-->
+        
         <div class="col-md-6 mb-3">
             <div class="card shadow text-center bg-success text-white">
                 <div class="card-body">
@@ -72,3 +72,4 @@ body {
 
 </body>
 </html>
+
