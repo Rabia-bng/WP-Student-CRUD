@@ -25,9 +25,9 @@ if(isset($_POST['update'])){
 
     
     $_SESSION['message'] = "Student updated successfully!";
-    $_SESSION['msg_type'] = "warning"; // yellow alert
+    $_SESSION['msg_type'] = "warning"; 
     header("Location: students.php");
-    exit(); // make sure script stops after redirect
+    exit(); t
 }
 ?>
 
@@ -77,3 +77,4 @@ body {
 <?php include "footer.php"; ?>
 </body>
 </html>
+
